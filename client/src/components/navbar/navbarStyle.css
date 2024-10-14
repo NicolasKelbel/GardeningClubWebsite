@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    max-width: 2500px;
+    margin: 0 10%;
+    border-bottom: 2px solid transparent;
+
+}
+
+#homepage {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.496);
+}
+
+
+.navLink {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.navLink--isActive {
+    text-decoration: overline;
+}
+
+.header__logoContainer {
+    display: flex;
+    align-items: center;
+}
