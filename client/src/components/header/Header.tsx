@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <div className='header' id={isHomePage ? 'homePageHeader' : 'defaultHeader'}>
-        <Navbar isHomePage={isHomePage}/>
+        <Navbar />
     </div>
   )
 }

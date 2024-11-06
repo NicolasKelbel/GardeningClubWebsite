@@ -4,13 +4,14 @@
   font-weight: 400;
   margin: 0;
   
-  --light-accent-color: #D6EFD8;
-  --dark-accent-color: #1A5319;
-  --primary-color: #80AF81;
-  --secondary-color: #508D4E;
-  --text-color: #000000;
+  --primary-background: #f7eec0;
+  --secondary-background: #ecddb8;
+  --dark-green: #88ad79;
+  --light-green: #b0d4a2;
+  --dark-pink: #c9a2d4;
+  --light-pink: #e7d0ee;
 
-  --header-height: 155px;
+  --header-height: 135px;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
