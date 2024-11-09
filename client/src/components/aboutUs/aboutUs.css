@@ -1,0 +1,36 @@
+.aboutUs {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 300px;
+    background-color: var(--primary-background);
+    position: relative;
+}
+
+.aboutUs__title{
+    margin: 0;
+    font-family: "Roboto Condensed";
+    color: white;
+    font-size: 4.5rem;
+}
+
+.aboutUs__leftColumn {
+    width: 50%;
+}
+
+.aboutUs__verticalLine {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--vericalLine-width);
+    height: 100%;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    background-color: var(--light-green);
+}
+
+.aboutUs__rightColumn{
+    width: 50%
+}
+

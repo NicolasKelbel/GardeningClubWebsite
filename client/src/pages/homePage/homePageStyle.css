@@ -1,6 +1,6 @@
 .homepage {
     display: flex;
-    width: 100%;
+    justify-content: center;
     flex-flow: column nowrap;
     margin-top: calc(var(--header-height) * -1);
 }
