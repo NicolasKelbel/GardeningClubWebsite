@@ -40,10 +40,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1.3rem;
     border-radius: 100%;
-    border: solid var(--light-green) 7px;
-    height: 3.8rem;
-    width: 3.8rem;
+    border: solid var(--light-green) 3.5px;
+    height: 3.2rem;
+    width: 3.2rem;
 
 }
 
@@ -52,27 +53,28 @@
 }
 
 .welcome__arrowDownIcon {
-    font-size: 3.2rem;
+    font-size: 2.4rem;
+    stroke-width: 0;
     color: var(--light-green);
 
 }
 
 #welcome_arrowDownSurroundingHovering {
-    animation: bounce 0.8s ease-in-out infinite alternate;
+    animation: bounce 0.7s ease-in-out infinite alternate;
 }
 
 @keyframes bounce {
-    0% {
+    0%, 100% {
         transform: translateY(0);
     }
-    100% {
+    50% {
         transform: translateY(4px);
     }
 }
 
 .welcome__verticalLine {
     width: var(--vericalLine-width);
-    height: 35%;
+    height: 15%;
     background-color: var(--light-green);
     transform: translateY(-1px);
 }

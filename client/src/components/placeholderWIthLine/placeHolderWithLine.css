@@ -1,6 +1,6 @@
 .placeHolderWithLine {
     width: 100%;
-    height: 100px;
+    height: 70px;
     background-color: var(--primary-background);
     position: relative;
 }

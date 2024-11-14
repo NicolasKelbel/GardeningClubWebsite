@@ -29,8 +29,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 270px;
-    height: 270px;
+    width: 250px;
+    height: 250px;
     border-radius: 100%;
     transform: translate(0px, 65px);
     background-color: var(--light-green);
@@ -38,8 +38,8 @@
 }
 
 .header_logoPlaceholder {
-    width: 225px;
-    height: 225px;
+    width: 205px;
+    height: 205px;
     border-radius: 100%;
     background-color: white;
 }
@@ -55,7 +55,7 @@
 .navLink {
     margin: 0;
     font-family: "Roboto Condensed";
-    font-size: 1.95rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: white;
     text-decoration: none;
