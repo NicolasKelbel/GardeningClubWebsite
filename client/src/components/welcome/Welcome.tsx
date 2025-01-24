@@ -8,6 +8,11 @@ const Welcome = () => {
   const handleMouseEnter = () => setIsHovering(true);
   const handleMouseLeave = () => setIsHovering(false);
 
+  const handleScroll = () => {
+    const section = document.querySelector('.placeHolderWithLine');
+    section?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className='welcome'>
       <div className='welcome__container'>
@@ -16,7 +21,7 @@ const Welcome = () => {
         </div>
         <div className='welcome__arrowDownContainer'>
           <div className='welcome__arrowDownSurrounding' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <IoIosArrowDown className='welcome__arrowDownIcon' id= {isHovering ? "welcome_arrowDownSurroundingHovering" : ""}/>
+            <IoIosArrowDown className='welcome__arrowDownIcon' id= {isHovering ? "welcome_arrowDownSurroundingHovering" : ""} onClick={handleScroll}/>
           </div>
           <div className='welcome__verticalLine'></div>
         </div>
