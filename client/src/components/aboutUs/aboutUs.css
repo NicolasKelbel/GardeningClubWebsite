@@ -9,20 +9,24 @@
     margin: 0;
     font-family: "Roboto Condensed";
     color: white;
-    font-size: 4.5rem;
-    margin: 1rem 0 3rem 0 ;
+    font-size: 5.5rem;
+    margin: 4rem 0 4rem 0;
 }
 
 .aboutUs__column {
     display: flex;
-    width: 50%;
+    width: 55%;
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
 }
 
-#aboutUs__itemRight {
-    justify-content: start;
+#aboutUs__firstRight {
+    margin-top: 10rem;
+}
+
+.aboutUs__itemRight {
+    justify-content: start !important;
 }
 
 .aboutUs__item{
@@ -34,15 +38,21 @@
     margin: 4rem 0 6rem 0;
 }
 
+#aboutUs__firstTextOutsideContainer{
+    margin-top: 7rem;
+}
+
 .aboutUs__textOutsideContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     border: solid var(--light-green) 5px;
-    border-radius: 95%;
-    width: 55%;
+    border-radius: 100%;
+    width: 40%;
     max-width: 540px;
     background-color: var(--light-green);
+    aspect-ratio: 1 / 1;
+    margin: 0 5% 0 5%;
 }
 
 .aboutUs__horizontalLine {
@@ -57,9 +67,10 @@
     align-items: center;
     border: solid var(--dark-green) 5px;
     border-radius: 95%;
-    width: 95%;
+    width: 100%;
     margin: 2%;
     background-color: var(--dark-green);
+    aspect-ratio: 1 / 1;
 }
 
 .aboutUs__text{

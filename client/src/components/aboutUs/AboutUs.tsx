@@ -9,7 +9,7 @@ const AboutUs = () => {
             <div className='aboutUs__item'>
               <div className='aboutUs__textOutsideContainer'>
                 <div className='aboutUs__textInsideContainer'>
-                  <p className='aboutUs__text'>fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa</p>
+                  <p className='aboutUs__text'>fkjdslajfkldjsaökf fkjdslajfkldjsaökf fkjdslajfkldjsaökf fkjdslajfkldjsaökf</p>
                 </div>
               </div>
               <div className='aboutUs__horizontalLine'></div>
@@ -17,7 +17,7 @@ const AboutUs = () => {
             <div className='aboutUs__item'>
               <div className='aboutUs__textOutsideContainer'>
                 <div className='aboutUs__textInsideContainer'>
-                  <p className='aboutUs__text'>fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa</p>
+                  <p className='aboutUs__text'>fkjdslajfkldjsaökf fkjdslajfkldjsaökf fkjdslajfkldjsaökf fkjdslajfkldjsaökf</p>
                 </div>
               </div>
               <div className='aboutUs__horizontalLine'></div>
@@ -26,19 +26,19 @@ const AboutUs = () => {
         <div className='aboutUs__verticalLine'>
         </div>
         <div className='aboutUs__column'>
-          <div className='aboutUs__item' id='aboutUs__itemRight'>
+          <div className='aboutUs__itemRight aboutUs__item' id='aboutUs__firstRight'>
               <div className='aboutUs__horizontalLine'></div>
               <div className='aboutUs__textOutsideContainer'>
                 <div className='aboutUs__textInsideContainer'>
-                  <p className='aboutUs__text'>fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa</p>
+                  <p className='aboutUs__text'>fkjdslajfkldjsaökf fkjdslajfkldjsaökf fkjdslajfkldjsaökf fkjdslajfkldjsaökf</p>
                 </div>
               </div>
             </div>
-            <div className='aboutUs__item' id='aboutUs__itemRight'>
+            <div className='aboutUs__itemRight aboutUs__item'>
               <div className='aboutUs__horizontalLine'></div>
               <div className='aboutUs__textOutsideContainer'>
                 <div className='aboutUs__textInsideContainer'>
-                  <p className='aboutUs__text'>fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa fkjdslajfkldjsaökfjdkslajfkdsjakfldwadwa</p>
+                  <p className='aboutUs__text'>fkjdslajfkldjsaökf fkjdslajfkldjsaökf fkjdslajfkldjsaökf fkjdslajfkldjsaökf</p>
                 </div>
               </div>
             </div>
