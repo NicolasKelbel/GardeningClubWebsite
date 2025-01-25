@@ -38,10 +38,6 @@
     margin: 4rem 0 6rem 0;
 }
 
-#aboutUs__firstTextOutsideContainer{
-    margin-top: 7rem;
-}
-
 .aboutUs__textOutsideContainer {
     display: flex;
     justify-content: center;
@@ -74,8 +70,10 @@
 }
 
 .aboutUs__text{
-    margin: 0;
     margin: 15%;
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .aboutUs__verticalLine {
