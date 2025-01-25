@@ -10,7 +10,7 @@
     font-family: "Roboto Condensed";
     color: white;
     font-size: 5.5rem;
-    margin: 4rem 0 4rem 0;
+    margin: 4rem 0 3rem 0;
 }
 
 .aboutUs__column {
@@ -22,7 +22,7 @@
 }
 
 #aboutUs__firstRight {
-    margin-top: 10rem;
+    margin-top: 35rem;
 }
 
 .aboutUs__itemRight {
