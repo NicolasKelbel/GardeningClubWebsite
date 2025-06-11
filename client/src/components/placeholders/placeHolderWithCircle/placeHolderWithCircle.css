@@ -1,4 +1,4 @@
-.placeHolderWithEmptyCircle {
+.placeHolderWithCircle {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@
     background-color: var(--primary-background);
 }
 
-.placeHolderWithEmptyCircle__circle {
+.placeHolderWithCircle__circle {
     display: flex;
     justify-content: center;
     align-items: center;

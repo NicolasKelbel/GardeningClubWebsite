@@ -2,8 +2,8 @@ import React from 'react'
 import "./homePageStyle.css"
 import Welcome from '../../components/welcome/Welcome'
 import AboutUs from '../../components/aboutUs/AboutUs'
-import PlaceHolderWithLine from '../../components/placeholders/placeholderWIthLine/PlaceholderWithLine'
-import PlaceHolderWithEmptyCircle from '../../components/placeholders/placeHolderWithEmptyCircle/PlaceHolderWithEmptyCircle'
+import PlaceHolderWithLine from '../../components/placeholders/placeholderWithLine/PlaceholderWithLine'
+import PlaceHolderWithCircle from '../../components/placeholders/placeHolderWithCircle/PlaceHolderWithCircle'
 
 type Item = {
   text: string; // Define the shape of each item in the array
@@ -21,10 +21,10 @@ const HomePage = () => {
   return (
     <div className='homepage'>
         <Welcome />
-        <PlaceHolderWithLine height={'10px'}/>
+        <PlaceHolderWithLine height={'30px'}/>
         <AboutUs items={data}/>
         <PlaceHolderWithLine height={'60px'}/>
-        <PlaceHolderWithEmptyCircle />
+        <PlaceHolderWithCircle />
     </div>
   )
 }

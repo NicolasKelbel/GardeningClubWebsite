@@ -16,13 +16,14 @@
 
 .aboutUs__title{
     display: flex;
+    flex-flow: row nowrap;
     justify-content: center;   
     align-items: center;       
     margin: 0;
     font-family: "Roboto Condensed";
     color: white;
     font-size: 6rem;
-    margin: 0;
+    white-space: nowrap;
 }
 
 .aboutUs__horizontalLineWhiteContainer {
@@ -30,6 +31,7 @@
     justify-content: center;
     align-items: center;
     height: 144px;
+    width: 100%;
     margin: 4rem 0 3rem 0;
 }
 
@@ -39,7 +41,8 @@
     align-items: center;
     height: var(--horizontalLine-width);
     background-color: white;
-    width: 20%
+    width: 100%;
+    margin: 0 3% 0 3%;
 }
 
 .aboutUs__horizontalLineWhiteRight{
@@ -48,7 +51,8 @@
     align-items: center;
     height: var(--horizontalLine-width);
     background-color: white;
-    width: 90%
+    width: 100%;
+    margin: 0 3% 0 3%;
 }
 
 .aboutUs__column {
@@ -83,7 +87,7 @@
     align-items: center;
     border: solid var(--light-green) 5px;
     border-radius: 100%;
-    width: 60%;
+    width: 100%;
     max-width: 540px;
     background-color: var(--light-green);
     aspect-ratio: 1 / 1;
