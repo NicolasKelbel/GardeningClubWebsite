@@ -13,7 +13,8 @@
 
   --header-height: 105px;
 
-  --vericalLine-width: 5px;
+  --vericalLine-width: 10px;
+  --horizontalLine-width: 15px;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

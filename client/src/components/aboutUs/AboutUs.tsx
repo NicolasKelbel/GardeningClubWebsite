@@ -17,7 +17,11 @@ const AboutUs = ({items}:items) => {
   return (
     <div className='aboutUs'>
         <div className='aboutUs__column'>
-            <h1 className='aboutUs__title'>About Us</h1>
+          <div className='aboutUs__titleAndLine'>
+            <div className='aboutUs__horizontalLineWhiteLeft'></div>
+              <h1 className='aboutUs__title'>ABOUT US</h1>
+            <div className='aboutUs__horizontalLineWhiteLeft'></div>
+          </div>
             {leftItems.map((item, index) => (
               <div key={index} className='aboutUs__item'>
                 <div className='aboutUs__textOutsideContainer'>
@@ -29,9 +33,11 @@ const AboutUs = ({items}:items) => {
               </div>
             ))}
         </div>
-        <div className='aboutUs__verticalLine'>
-        </div>
+        <div className='aboutUs__verticalLineGreen'></div>
         <div className='aboutUs__column'>
+          <div className='aboutUs__horizontalLineWhiteContainer'>
+            <div className='aboutUs__horizontalLineWhiteRight'></div>
+          </div>
           {rightItems.map((item, index) => (
                 <div key={index} className='aboutUs__itemRight aboutUs__item' id={index === 0 ? 'aboutUs__firstRight' : ''}>
                   <div className='aboutUs__horizontalLine'></div>

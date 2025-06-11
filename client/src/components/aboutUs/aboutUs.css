@@ -5,12 +5,50 @@
     position: relative;
 }
 
+.aboutUs__titleAndLine {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 4rem 0 3rem 0;
+}
+
 .aboutUs__title{
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
     margin: 0;
     font-family: "Roboto Condensed";
     color: white;
-    font-size: 5.5rem;
+    font-size: 6rem;
+    margin: 0;
+}
+
+.aboutUs__horizontalLineWhiteContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 144px;
     margin: 4rem 0 3rem 0;
+}
+
+.aboutUs__horizontalLineWhiteLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--horizontalLine-width);
+    background-color: white;
+    width: 20%
+}
+
+.aboutUs__horizontalLineWhiteRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--horizontalLine-width);
+    background-color: white;
+    width: 90%
 }
 
 .aboutUs__column {
@@ -22,12 +60,13 @@
 }
 
 #aboutUs__firstRight {
-    margin-top: 35rem;
+    margin-top: 20rem;
 }
 
 .aboutUs__itemRight {
     justify-content: start !important;
 }
+
 
 .aboutUs__item{
     display: flex;
@@ -44,7 +83,7 @@
     align-items: center;
     border: solid var(--light-green) 5px;
     border-radius: 100%;
-    width: 40%;
+    width: 60%;
     max-width: 540px;
     background-color: var(--light-green);
     aspect-ratio: 1 / 1;
@@ -64,7 +103,7 @@
     border: solid var(--dark-green) 5px;
     border-radius: 95%;
     width: 100%;
-    margin: 2%;
+    margin: 5%;
     background-color: var(--dark-green);
     aspect-ratio: 1 / 1;
 }
@@ -72,11 +111,11 @@
 .aboutUs__text{
     margin: 15%;
     font-family: "Roboto";
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 500;
 }
 
-.aboutUs__verticalLine {
+.aboutUs__verticalLineGreen {
     position: absolute;
     display: flex;
     justify-content: center;
